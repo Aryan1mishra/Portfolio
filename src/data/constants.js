@@ -1,16 +1,13 @@
-
-
+import Netflix from '../images/Netflix.png';
 export const Bio = {
   name: "Aryan Mishra",
-  roles: [
-    "WEB Developer",
-    "Programmer",
-  ],
+  roles: ["WEB Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Aryan1mishra",
+  leetcode: "https://leetcode.com/u/aryanmishra000/",
   resume:
-    "",
+    "https://drive.google.com/file/d/11N1CjVBksXY_lPyVIFDmpN4WW2zIvshr/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aryan-mishra-160867254/",
 };
 
@@ -23,7 +20,7 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-      
+
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -62,53 +59,38 @@ export const skills = [
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
-      
       {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        name: "Express js",
+        image:"https://icon.icepanel.io/Technology/svg/Express.svg",
+      },
+      {
+        name: "MongoDb",
+        image:"https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png",
       },
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name:"SQL",
+        iamge:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUN3409Xy8KSTRtvff6zPTXxDYrbanZiKZxw&s",
+      },
     ],
   },
-  // {
-  //   title: "Android",
-  //   skills: [
-  //     {
-  //       name: "Java",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-  //     },
-  //   ],
-  // },
   {
-    title: "Others",
-    skills: [
+    title:"Programing Language",
+    skills:[
       {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+        name:"Java",
+        image:"https://www.citypng.com/public/uploads/preview/hd-java-programming-logo-png-701751694771848sm650yaqjt.png",
       },
       {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+        name: "Python",
+        iamge:"https://images.icon-icons.com/112/PNG/512/python_18894.png",
       },
     ],
   },
+
 ];
 
 export const experiences = [
@@ -118,30 +100,37 @@ export const experiences = [
     role: "Front end development",
     company: "MLSC Thapar ",
     desc: "Working on sponsar page of official MLSC thapar page.",
-    skills: [
-      "React js",
-      "tailwind css",
-    ],
-   },
+    skills: ["React js", "tailwind css"],
+  },
+  {
+    id: 1,
+    img: "",
+    role: "Front end development",
+    company: "Capstone project",
+    desc: "Collaborated with a final-year student to develop the frontend of Thapar CMMS, a campus maintenance management system.",
+    skills: ["React js", "tailwind css"],
+  },
+  {
+    id: 2,
+    img: "",
+    role: "Full stack development",
+    company: "Alpha media",
+    desc: "Designing and developing the complete full-stack website for Alpha Media to establish their digital presence.",
+    skills: ["React js", "tailwind css", "Node js", "Express js", "Mongodb"],
+  },
+  
 ];
-
 
 export const projects = [
   {
     id: 9,
     title: "Netflix Clone",
     description:
-      "My first project using html and css. I have made a Netflix clone . I have uploded this on netlify .",
-    image:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--_i4LYB4J--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qbsciyoo1m5174v5zcxz.png",
-    tags: [
-      "Html",
-      "css",
-      
-    ],
-    category: "web app",
+      "My first project using html and css. I have made a Netflix clone .",
+    image:Netflix,
+     tags: ["Html", "css"],
     github: "https://github.com/Aryan1mishra/Netflix-clone-using-html-and-css",
-    webapp: "https://netflix-clone-using-html-css.netlify.app",
+    webapp: "https://aryan1mishra.github.io/Netflix-clone-using-html-and-css/",
   },
   {
     id: 0,
@@ -162,18 +151,11 @@ export const projects = [
       "I have made a contact manager using basic concept of react js and some basic styling. You can add contact and can see this to the main page.",
     image:
       "https://www.contactsplus.com/wp-content/uploads/2021/06/web-updates-1024x640-1.png",
-    tags: [
-      "React Js",
-      "tailwind css",
-    ],
+    tags: ["React Js", "tailwind css"],
     category: "web app",
-    github: "https://github.com/Aryan1mishra/react-js-basic-project-name-contact-manager",
-    webapp: "https://github.com/Aryan1mishra/react-js-basic-project-name-contact-manager",
+    github:
+      "https://github.com/Aryan1mishra/react-js-basic-project-name-contact-manager",
+    webapp:
+      "https://github.com/Aryan1mishra/react-js-basic-project-name-contact-manager",
   },
-  
-  
- 
-  
 ];
-
-
